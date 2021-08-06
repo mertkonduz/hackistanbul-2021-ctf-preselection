@@ -1,0 +1,109 @@
+ExifTool Version Number         : 12.16
+File Name                       : HI.jpg
+Directory                       : .
+File Size                       : 32 KiB
+File Modification Date/Time     : 2021:06:20 10:06:15-04:00
+File Access Date/Time           : 2021:08:08 10:25:25-04:00
+File Inode Change Date/Time     : 2021:08:08 10:25:24-04:00
+File Permissions                : rw-r--r--
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Photometric Interpretation      : RGB
+Orientation                     : Horizontal (normal)
+Samples Per Pixel               : 3
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Software                        : Adobe Photoshop CC 2018 (Windows)
+Modify Date                     : 2021:06:20 17:06:12
+Exif Version                    : 0221
+Color Space                     : sRGB
+Exif Image Width                : 400
+Exif Image Height               : 400
+Compression                     : JPEG (old-style)
+Thumbnail Offset                : 398
+Thumbnail Length                : 3316
+Current IPTC Digest             : cdcffa7da8c7be09057076aeaf05c34e
+Coded Character Set             : UTF8
+Application Record Version      : 0
+IPTC Digest                     : cdcffa7da8c7be09057076aeaf05c34e
+Displayed Units X               : inches
+Displayed Units Y               : inches
+Print Style                     : Centered
+Print Position                  : 0 0
+Print Scale                     : 1
+Global Angle                    : 30
+Global Altitude                 : 30
+URL List                        : 
+Slices Group Name               : 8TAstTHP_400x400
+Num Slices                      : 1
+Pixel Aspect Ratio              : 1
+Photoshop Thumbnail             : (Binary data 3316 bytes, use -b option to extract)
+Has Real Merged Data            : Yes
+Writer Name                     : Adobe Photoshop
+Reader Name                     : Adobe Photoshop CC 2018
+Photoshop Quality               : 12
+Photoshop Format                : Progressive
+Progressive Scans               : 3 Scans
+XMP Toolkit                     : Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39
+Document ID                     : adobe:docid:photoshop:6df8182d-9d54-b94a-8020-cdd9f4721ca9
+Instance ID                     : xmp.iid:acf932ac-f6c6-e54d-8ab0-cc78a464d26c
+Original Document ID            : 57C7DFC19F7E1A5B9A63352B52E897B0
+Format                          : image/jpeg
+Color Mode                      : RGB
+ICC Profile Name                : sRGB built-in
+Create Date                     : 2021:06:20 16:13:32+03:00
+Metadata Date                   : 2021:06:20 17:06:12+03:00
+History Action                  : saved, saved
+History Instance ID             : xmp.iid:a5d8bc86-f532-d547-a779-535127027b93, xmp.iid:acf932ac-f6c6-e54d-8ab0-cc78a464d26c
+History When                    : 2021:06:20 17:06:12+03:00, 2021:06:20 17:06:12+03:00
+History Software Agent          : Adobe Photoshop CC 2018 (Windows), Adobe Photoshop CC 2018 (Windows)
+History Changed                 : /, /
+Text Layer Name                 : {HI2021-fcc637036c3c11f699c22c243dd82a}
+Text Layer Text                 : {HI2021-xxxxxxxxxxxxxxxxxxxxxxxx}
+Profile CMM Type                : Little CMS
+Profile Version                 : 4.3.0
+Profile Class                   : Display Device Profile
+Color Space Data                : RGB
+Profile Connection Space        : XYZ
+Profile Date Time               : 2018:08:14 12:43:37
+Profile File Signature          : acsp
+Primary Platform                : Apple Computer Inc.
+CMM Flags                       : Not Embedded, Independent
+Device Manufacturer             : 
+Device Model                    : 
+Device Attributes               : Reflective, Glossy, Positive, Color
+Rendering Intent                : Perceptual
+Connection Space Illuminant     : 0.9642 1 0.82491
+Profile Creator                 : Little CMS
+Profile ID                      : 0
+Profile Description             : sRGB built-in
+Profile Copyright               : No copyright, use freely
+Media White Point               : 0.9642 1 0.82491
+Chromatic Adaptation            : 1.048 0.02299 -0.05014 0.02971 0.99034 -0.01706 -0.00923 0.01501 0.75226
+Red Matrix Column               : 0.43585 0.22238 0.01392
+Blue Matrix Column              : 0.14302 0.06059 0.71384
+Green Matrix Column             : 0.38533 0.71704 0.09714
+Red Tone Reproduction Curve     : (Binary data 32 bytes, use -b option to extract)
+Green Tone Reproduction Curve   : (Binary data 32 bytes, use -b option to extract)
+Blue Tone Reproduction Curve    : (Binary data 32 bytes, use -b option to extract)
+Chromaticity Channels           : 3
+Chromaticity Colorant           : Unknown (0)
+Chromaticity Channel 1          : 0.64 0.33
+Chromaticity Channel 2          : 0.3 0.60001
+Chromaticity Channel 3          : 0.14999 0.06
+DCT Encode Version              : 100
+APP14 Flags 0                   : [14]
+APP14 Flags 1                   : (none)
+Color Transform                 : YCbCr
+Image Width                     : 400
+Image Height                    : 400
+Encoding Process                : Progressive DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:4:4 (1 1)
+Image Size                      : 400x400
+Megapixels                      : 0.160
+Thumbnail Image                 : (Binary data 3316 bytes, use -b option to extract)

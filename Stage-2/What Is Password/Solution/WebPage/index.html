@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="big5">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Kaan Tekiner</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="sweetalert2.all.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+
+      <style>
+      #snackbar {
+        visibility: hidden;
+        width: 100%;
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px;
+        position: fixed;
+        bottom: 30px;
+        font-size: 15px;
+        font-family: "Helvetica Neue",sans-serif;
+      }
+
+      #snackbar.show {
+        visibility: visible;
+        -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      }
+
+      @-webkit-keyframes fadein {
+        from {bottom: 0; opacity: 0;}
+        to {bottom: 30px; opacity: 1;}
+      }
+
+      @keyframes fadein {
+        from {bottom: 0; opacity: 0;}
+        to {bottom: 30px; opacity: 1;}
+      }
+
+      @-webkit-keyframes fadeout {
+        from {bottom: 30px; opacity: 1;}
+        to {bottom: 0; opacity: 0;}
+      }
+
+      @keyframes fadeout {
+        from {bottom: 30px; opacity: 1;}
+        to {bottom: 0; opacity: 0;}
+      }
+      </style>
+
+
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+                  <nav>
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+                        <div class="menu">
+                              <ul>
+							           <li><a id ="navtext1id" class="navtext2"><span style="color:#ab2abf"><b>Udemy</b></span></a></li>
+							           <li><a id ="navtext2id" class="navtext2">About</a></li>
+                                       <li><a id ="navtext3id" class="navtext3">Projects</a></li>
+                                       <li><a id ="navtext4id" class="navtext4">Contact</a></li>
+                                       <li><a id ="navtext5id" class="navtext4">Message</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+            </header>
+
+            <div id ="content1id" class="content1">
+                  <div id ="imagespaceid" class="imagespace"></div>
+                  <img class="img1" src="kaanblack.png">
+            			<p class="yazi1">Kaan Tekiner</p>
+            			<p class="yazi2">Jr.Cyber Security Analyst @UITSEC Technology - REST API & Web Application Developer</p>
+            			<p class="yazi3">Yeditepe University - Managment Information Systems</p>
+            			<p class="yazi3no2" id = "yazi3no2"><u>github.com/kaantekiner</u></p>
+            			<p id ="scrolldownarrow" class="yazi4">&#10095;</p>
+
+            </div>
+
+            <div class="content2">
+      			     <div class="content2div1">
+                   <button id ="downloadcvbutton" class="button1" type="button">Download CV</button>
+
+                 </div>
+
+                 <div class="content2div2">
+                   <img class="content2div1img1" id ="content2div1id" src="logo1.png">
+
+                 </div>
+
+                 <div class="content2div3">
+                   <img class="content2div1img2" id ="content2div2id" src="logo2.png">
+
+                 </div>
+            </div>
+            <div class="content2endline"></div>
+
+            <div class="content3">
+              <div class="content3div1"></div>
+              <p class="content3yazi1">About</p>
+                      <p class="content3yazi2">
+                        Technically, i am interested in cyber security, developing and designing native mobile applications for Android OS, 2D or 3D games for PC and mobile platforms. Also i am interested in IoT, Arduino programming, mechanics, smart homecare systems, RasPi and e-commerce.<br>
+                        <br>
+                        Coding in;
+                        <br><br>
+                        Python<br>
+                        PHP - Sql<br>
+                        C#<br>
+                        HTML5 - CSS - JavaScript<br>
+
+                        <br>
+                        IDE's which i am familiar with;
+                        <br><br>
+                        PyCharm<br>
+                        Unity 5+<br>
+                        Android Studio<br>
+                        Visual Studio<br>
+                        BuildBox<br>
+                        Arduino IDE<br>
+                        
+                        <br>
+                        Designing in;
+                        <br>
+                        Illustrator<br>
+                        Inkscape<br>
+                        Blender<br>
+                        <br>
+                        In my scope nowadays;
+                        <br><br>
+                        AlienVault<br>
+                        Graylog<br>
+                        <br>
+                        OS;
+                        <br><br>
+                        Centos 7<br>
+                        Kali Linux<br>
+                        Ubuntu 16.04 / 18.04<br>
+                        <br>
+                        Operational/Optional;
+                        <br><br>
+                        Took lessons and interested in e-commerce sector, and marketing strategies in this subject. Especially working on Trade Models in e-commerce and spesification theory on mobile applications.
+                        <br><br>
+                        Feel free for contact about theese to;
+                        <br><br>
+                        kaantekiner96@gmail.com<br>
+                        kaantekiner96@hotmail.com<br>
+                        kaan.tekiner@uitsec-international.com<br>
+                        <br><br>
+              </p>
+            </div>
+
+            <div class="divresim1"></div>
+            <div class="content4">
+                  <div class="content4div1"></div>
+                  <p class="content4yazi1">Projects</p>
+                  <p class="content4yazi2">Projects will be added soon, happy to see you again here.</p>
+            </div>
+            <div class="divresim2"></div>
+
+            <div class="content5">
+                  <div class="content5div1"></div>
+                  <p class="content5yazi1">Message Me</p>
+                  <p class="content5yazi2">Feel free to ask anything you want.</p>
+                  <div class = "content5spacer"></div>
+                  <input class="content5yourname"type="text" placeholder="Name & Surname" name="uname" required><br>
+                  <input class="content5youremail"type="text" placeholder="Email Adress" name="uname" required><br>
+                  <input class="content5yourmessage"type="text" placeholder="Your Message" name="uname" required><br>
+                  <button id ="sendmessagebutton" class="button2" type="button">Still In Development</button>
+                  <p class="content5yazi3">Your messages will be stored in servers database without a custom encryption. So please, do not message about private information or credentials. Due to an unwanted attempt, responsibility will not be taken by me.</p>
+            </div>
+            <div class="content5endline"></div>
+      </div>
+
+      <script type="text/javascript">
+          // Menu-toggle button
+          $(document).ready(function()
+          {
+            $('nav').addClass('black');
+            $(".menu-icon").on("click", function()
+            {
+      				$("nav ul").toggleClass("showing");
+            });
+            myFunction("Still in development")
+          });
+
+          // Scrolling Effect
+          $(window).on("scroll", function()
+    	  {
+                if($(window).scrollTop())
+    			{
+                      $('nav').addClass('black');
+                }
+                else
+    			{
+                      $('nav').addClass('black');
+                }
+          })
+          
+          var yazi3no2 = document.getElementById("yazi3no2");
+          
+          yazi3no2.addEventListener("click", function() 
+          {
+              window.location.href = "https://github.com/kaantekiner";
+          }, false);
+
+    	var downloadcvbutton = document.getElementById('downloadcvbutton');
+
+    	downloadcvbutton.addEventListener('click', function()
+    	{
+    		//alert('Hello world');
+    		$('.button1').css({}).animate({opacity: 0}, 'fast');
+    		$('.yaziipadres').css({}).animate({opacity: 0}, 'fast');
+    		setTimeout(function ()
+    		{
+    			$('.button1').css({}).animate({opacity: 1}, 'fast');
+    			$('.yaziipadres').css({}).animate({opacity: 1}, 'fast');
+    		}, 300);
+        myFunction("Not enabled yet");
+    	}, false);
+
+    	$(downloadcvbutton).each(function () {
+    	var hovered = false;
+    	var loop = window.setInterval(function () {
+        if (hovered){
+          // ...
+        }
+      }, 250);
+      $(this).hover(
+        function () {
+          hovered = true;
+    		$('.yaziipadres').css({}).animate({opacity: 1}, 'fast');
+    				$('.button1').css({}).animate({opacity: 0.5}, 'fast');
+    	  },
+        function () {
+          hovered = false;
+        		$('.yaziipadres').css({}).animate({opacity: 0}, 'fast');
+    					$('.button1').css({}).animate({opacity: 1}, 'fast');
+    	}
+      );
+    });
+    	var scrolldownarrow = document.getElementById('scrolldownarrow');
+
+    	scrolldownarrow.addEventListener('click', function()
+    	{
+    		$('html,body').animate({
+            scrollTop: $(".content3div1").offset().top},
+            'slow');
+    	}, false);
+
+    	var content2div1id = document.getElementById('content2div1id');
+
+    	content2div1id.addEventListener('click', function()
+    	{
+    		window.open("https://www.linkedin.com/in/kaan-tekiner-613293133");
+    	}, false);
+
+      var content2div2id = document.getElementById('content2div2id');
+
+    	content2div2id.addEventListener('click', function()
+    	{
+    		window.open("https://www.instagram.com/kaantekiner/");
+    	}, false);
+
+        var navtext1id = document.getElementById('navtext1id');
+
+    	navtext1id.addEventListener('click', function()
+    	{
+    	    
+          Swal.fire({
+          title: 'Udemy!',
+          html: '<br><br>Udemy tutorials will be available soon.</b><br><br><br>',
+          confirmButtonColor: "#212121",
+          allowOutsideClick: true,
+          icon: 'info',
+          confirmButtonText: 'Close'
+        })
+    	    
+    	}, false);
+    	
+    	var navtext2id = document.getElementById('navtext2id');
+
+    	navtext2id.addEventListener('click', function()
+    	{
+    		$('html,body').animate({
+            scrollTop: $(".content3div1").offset().top},
+            'slow');
+    		$("nav ul").toggleClass("showing");
+    	}, false);
+
+    	var navtext4id = document.getElementById('navtext4id');
+
+    	navtext4id.addEventListener('click', function()
+    	{
+    		$('html,body').animate({
+            scrollTop: $(".yazi4").offset().top},
+            'slow');
+    		$("nav ul").toggleClass("showing");
+    	}, false);
+
+      var navtext5id = document.getElementById('navtext5id');
+
+    	navtext5id.addEventListener('click', function()
+    	{
+    		$('html,body').animate({
+            scrollTop: $(".button2").offset().top},
+            'slow');
+    		$("nav ul").toggleClass("showing");
+    	}, false);
+
+      var content2extrayazi1id = document.getElementById('content2extrayazi1id');
+
+    	content2extrayazi1id.addEventListener('click', function()
+    	{
+    		$('html,body').animate({
+            scrollTop: $(".button2").offset().top},
+            'slow');
+    		$("nav ul").toggleClass("showing");
+    	}, false);
+
+    	var content4yazi1 = document.getElementById('content4yazi1id');
+
+    	content4yazi1.addEventListener('click', function()
+    	{
+    		$('html,body').animate({
+            scrollTop: $(".yazi4").offset().top},
+            'slow');
+    		$("nav ul").toggleClass("showing");
+    	}, false);
+
+    	var navtext3id = document.getElementById('navtext3id');
+
+    	navtext3id.addEventListener('click', function()
+    	{
+    		$('html,body').animate({
+            scrollTop: $(".content4yazi1").offset().top},
+            'slow');
+    		$("nav ul").toggleClass("showing");
+    	}, false);
+
+
+      var sendmessagebutton = document.getElementById('sendmessagebutton');
+
+      sendmessagebutton.addEventListener('click', function()
+      {
+        //myFunction("Your message sended successfully");
+        myFunction("Not enabled yet");
+        //alert('Hello world');
+        $('.button2').css({}).animate({opacity: 0}, 'fast');
+        $('.yaziipadres').css({}).animate({opacity: 0}, 'fast');
+        setTimeout(function ()
+        {
+          $('.button2').css({}).animate({opacity: 1}, 'fast');
+          $('.yaziipadres').css({}).animate({opacity: 1}, 'fast');
+        }, 300);
+      }, false);
+
+      $(sendmessagebutton).each(function () {
+      var hovered = false;
+      var loop = window.setInterval(function () {
+        if (hovered){
+          // ...
+        }
+      }, 250);
+      $(this).hover(
+        function () {
+          hovered = true;
+        $('.yaziipadres').css({}).animate({opacity: 1}, 'fast');
+            $('.button2').css({}).animate({opacity: 0.5}, 'fast');
+
+        },
+        function () {
+          hovered = false;
+            $('.yaziipadres').css({}).animate({opacity: 0}, 'fast');
+              $('.button2').css({}).animate({opacity: 1}, 'fast');
+
+      }
+      );
+      });
+          </script>
+
+          <div id="snackbar">This website is still in development</div>
+          <script>
+          function myFunction(gelen)
+          {
+            var x = document.getElementById("snackbar");
+            x.innerHTML = gelen;
+            x.className = "show";
+            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+          }
+          </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
