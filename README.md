@@ -558,7 +558,7 @@ ENJ0Y! https://www.youtube.com/watch?v=1w7OgIMMRc4
 
 ```
 
-This was what we though they are;
+This was what we initially though they were;
 
 - 1/3
 	- PNEESMRQGIYS2U3XGMZXIXY= : Base32
@@ -1024,7 +1024,7 @@ We tried to open PDF file again with password *blessed1* and this text was insid
 {SR2021-692uyw4x4054u70z2648076z02850y}
 ```
 
-The format was close to CTF flag format *{HI2021-XXXXXXXXX}* and we could tell that some kind of [substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher) was used. We already have the hint for the type of the cipher (*atbash.pdf*), which was Atbash cipher. A quick decode at [CyberChef](https://gchq.github.io/CyberChef/) revealed final flag;
+The format was close to CTF flag format *{HI2021-XXXXXXXXX}* and we could tell that some kind of [substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher) was used. We already had the hint for the type of the cipher (*atbash.pdf*), which was Atbash cipher. A quick decode at [CyberChef](https://gchq.github.io/CyberChef/) revealed final flag;
 
 ```
 {HI2021-692fbd4c4054f70a2648076a02850b}
