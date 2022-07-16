@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+section {
+    width: 80%;
+    float: inherit;
+}
+
+header, section, footer {
+    position: static;
+}
