@@ -3,13 +3,15 @@
 
 @import "{{ site.theme }}";
 
-section {
+header, section, footer {
     width: 100%;
-    float: inherit;
     position: static;
 }
 
-header, footer {
-    width: 100%;
-    position: static;
+header {
+    padding-right: 0px;
+}
+
+section {
+    float: inherit;
 }
