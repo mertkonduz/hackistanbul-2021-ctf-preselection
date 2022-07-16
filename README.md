@@ -1,6 +1,6 @@
 # HackIstanbul 2021 CTF - Preselection Stage WriteUp (All Challenges)
 
-This repo has all challenges from [HackIstanbul CTF 2021](https://www.hackistanbul.com/) Preselection Stage. During the competition We solved all challenges except [XSS-BruteLogic](#xss-brutelogic) and [B2B21](#B2B21).
+This repo has all challenges from [HackIstanbul CTF 2021](https://www.hackistanbul.com/) Preselection Stage. During the competition We solved all challenges except [XSS-BruteLogic](#xss-brutelogic) and [B2B21](#b2b21).
 
 # CTF Concept
 
@@ -27,7 +27,7 @@ It was a jeopardy style CTF and 24 hours were given to complete all challenges g
 	- [x] [What Is Password](#what-is-password)
 	- [ ] [XSS-BruteLogic](#xss-brutelogic)
 - [Stage-3](#stage-3)
-	- [ ] [B2B21](#B2B21)
+	- [ ] [B2B21](#b2b21)
 	- [x] [Find Restaurant](#find-restaurant)
 	- [x] [Is It Empty](#is-it-empty)
 	- [x] [Look In Detail](#look-in-detail)
