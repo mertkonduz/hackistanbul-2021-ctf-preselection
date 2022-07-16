@@ -6,9 +6,10 @@
 section {
     width: 100%;
     float: inherit;
+    position: static;
 }
 
 header, footer {
-    width: 100%
+    width: 100%;
     position: static;
 }
